@@ -124,12 +124,29 @@ img {
 }
 
 @media (max-width: 768px) {
+    
+    .header h1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header img {
+        margin-top: 2rem;
+    }
+
     .note {
-        margin-top: 4.7rem;
+        margin-top: 3rem;
     }
 
     .add {
         position: absolute;
-        margin-top: 4rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and ( device-width: 768px ) {
+    .add {
+        position: absolute;
+        margin-top: 0.397rem;
     }
 }
