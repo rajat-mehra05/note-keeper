@@ -1,5 +1,5 @@
 # note-keeper
-- you can use markdown while creating notes
+ you can use markdown while creating notes
 - CRUD functionality
 - data stored in local storage
 
